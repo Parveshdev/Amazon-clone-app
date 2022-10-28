@@ -6,7 +6,7 @@ import Subtotal from "./Subtotal";
 
 function Checkout() {
   const [{ basket }, dispatch] = useStateValue();
-
+  console.log();
   return (
     <div className="checkout">
       <div className="checkout__left">
